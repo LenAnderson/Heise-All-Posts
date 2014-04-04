@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           Heise.de - All Posts
-// @namespace      https://github.com/LenAnderson/userscripts/
+// @namespace      https://github.com/LenAnderson/
 // @include        http://www.heise.de/*/foren/*/read*
 // ==/UserScript==
  
