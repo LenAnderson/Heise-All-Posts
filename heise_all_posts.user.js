@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name           Heise.de - All Posts
 // @namespace      https://github.com/LenAnderson/
+// @downloadURL    https://github.com/LenAnderson/Heise-All-Posts/raw/master/heise_all_posts.user.js
 // @include        http://www.heise.de/*/foren/*/read*
 // ==/UserScript==
  
