@@ -2,7 +2,7 @@
 // @name           Heise.de - All Posts
 // @namespace      https://github.com/LenAnderson/
 // @downloadURL    https://github.com/LenAnderson/Heise-All-Posts/raw/master/heise_all_posts.user.js
-// @version        0.2
+// @version        0.3
 // @include        http://www.heise.de/*/foren/*/read*
 // @include        http://www.heise.de/forum/*/posting-*/show/
 // ==/UserScript==
@@ -33,7 +33,7 @@
     function retrieveNextPost(evt) {
         var html = document.createElement('div');
         html.innerHTML = this.responseText;
-        var post = document.createElement('div');
+        var post = document.createElement('hap');
         post.className = 'heise_all_posts';
         if (html.querySelector('.posting_text')) {
             post.appendChild(html.querySelector('.vote_posting') || document.createElement('div'));
@@ -91,7 +91,7 @@
     
     function init() {
         var style = document.createElement('style');
-        style.innerHTML = '.heise_all_posts:nth-child(even){background-color: rgb(230,230,230);}';
+        style.innerHTML = '.heise_all_posts:nth-of-type(odd){display: blocK; background-color: rgb(230,230,230);}';
         document.body.appendChild(style);
         
         window.addEventListener('focus', removeTitle);
