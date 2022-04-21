@@ -2,8 +2,8 @@
 // @name         Heise.de - All Posts
 // @namespace    https://github.com/LenAnderson/
 // @downloadURL  https://github.com/LenAnderson/Heise-All-Posts/raw/master/heise_all_posts.user.js
-// @version      0.4
-// @match        http://www.heise.de/forum/*/posting-*/show/
+// @version      0.4.1
+// @match        https://www.heise.de/forum/*/posting-*/show/
 // @grant        none
 // ==/UserScript==
 
